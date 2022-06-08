@@ -1,1 +1,1 @@
-# tex-table-tagging
+## Minimal examples of issues with TeX table tagging
