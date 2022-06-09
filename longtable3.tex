@@ -1,0 +1,25 @@
+\documentclass{article}
+
+\usepackage{longtable}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{longtable}[]{@{}lr@{}}
+  \caption{\label{tab:problems}Other problem examples}\tabularnewline
+  \toprule
+  Description & Example \\
+  \midrule
+  \endfirsthead
+  \toprule
+  Description & Example \\
+  \midrule
+  \endhead
+  Dashes without a space & This-that \\
+  Word before parenthesis & Normal(0, 1) \\
+  Word after comma without space & Normal(0,1) \\
+  Multiple decimal points & Version 1.2.3 \\
+  \bottomrule
+\end{longtable}
+
+\end{document}
