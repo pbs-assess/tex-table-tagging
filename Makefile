@@ -3,6 +3,7 @@ outputfiles = $(texfiles:=.pdf)
 
 %.pdf: %.tex
 	pdflatex $(basename $<)
+	pdflatex $(basename $<)
 	rm -rf *.log *.aux
 
 all: $(outputfiles)
