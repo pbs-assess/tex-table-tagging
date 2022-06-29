@@ -12,8 +12,9 @@ Accessibility tags are a requirement of the Government of Canada. The main hurdl
 ## Simple source example
 This repo contains tiny .tex files with simple tables representing our most common issues. The screenshots below represent the most basic tables possible, which have issues with the auto-tagging process in Foxit. 
 
-Left panels showcase tables incorrectly auto-tagged with Foxit: lables are not assigned properly and values are not stored in individual containers. 
-Right panels showcase tables properly tagged manually: labels are applied coreectly, in the right order, and each value of the table is stored in individual containers.
+- Left panels showcase tables incorrectly auto-tagged with Foxit: labels are not assigned properly and values are not stored in individual containers. 
+
+- Right panels showcase tables properly tagged manually (although auto-tagging of the full document is applied first): labels are applied coreectly, in the right order, and each value of the table is stored in individual containers.
 
 ![basic](vignettes/basic.PNG)
 
