@@ -1,4 +1,4 @@
-# Minimal examples of issues with TeX table tagging
+# Examples of accessibility issues with TeX table tagging
 
 ## Context
 
@@ -35,10 +35,17 @@ Also, a tutorial of how to do the manual tagging of tables to fulfill
 accessibility tags is available here:
 [Accessibility tags for CSAS documents rendered with csasdown](https://www.youtube.com/watch?v=lJYOu2He0Wo)
 
-## Simple LaTeX example
+## Simple LaTeX examples
 
 This repo contains minimal `.tex` files with simple tables representing our
-most common issues. The screenshots below represent the most basic tables
+most common issues. Each example has the following structure using the `basic`
+example as a template:
+
+- `basic.tex`: TeX source
+- `basic.pdf`: `pdflatex` rendered version of TeX file with accessibility issues
+- `basic-tagged.pdf`: a version of `basic.pdf` where the table has been correctly tagged for accessibility
+
+The screenshots below represent the most basic tables
 possible, which have issues with the auto-tagging process in [Foxit](https://www.foxit.com/pdf-reader/).
 
 - Left panels showcase tables incorrectly auto-tagged with Foxit: labels are
